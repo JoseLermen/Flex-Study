@@ -1,0 +1,433 @@
+html{
+    font-family: "Quicksand";
+    font-size: 16px;
+    
+    
+    
+    
+    
+}
+
+h2, th{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#main{
+    background-color: white;
+    width: 70%;
+    height: 100%;
+    padding: 0%;
+    margin: 7vmax auto 7vmax auto;
+    overflow: hidden;
+}
+
+
+
+header {
+    display: inline-flex;
+    background-color: #f5f5f586;
+    color:#1b2835;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    height: 3.5vmax;
+    border-bottom: #1b2835 0.2vmin solid;
+
+   
+}
+
+
+header div{
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    max-width: 100%;
+    font-size: 1.5vmax;
+    
+    
+    
+}
+
+nav{
+    margin:0;
+    padding: 0;
+}
+
+nav  li{
+    display: inline-flex;
+    font-size: 1vmax;
+    margin: 0 2%;
+    
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    
+}
+/*
+
+header h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+header p{
+    font-style: italic;
+    max-width: 100%;
+}
+
+nav{
+    font-size: 0.5em;
+    
+}
+
+nav  li{
+    display: inline-flex;
+    
+}
+
+ul{
+    display: flex;
+    
+}
+*/
+main  {
+    display: flex;
+}
+
+
+/*Images*/
+
+#main-images{
+    display: inline-flex;
+    background-color: orangered;
+    max-width: 100%;
+    height: auto;
+}
+
+#main-images div{
+    border: 1px solid white;
+    object-fit: fill;
+    
+}
+
+
+#main-images img{
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+    object-position: left;
+    object-fit: cover;
+    
+}
+
+#main-images div img:hover{
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+    
+
+/*Description*/
+
+#rest{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 5vmax 1vmax 1vmax;
+}
+
+#main-button button{ 
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5vmax;
+    text-transform: uppercase;
+    border: 0.5vmax solid #f5f5f5c9;
+    width: 100%;
+    line-height: 3;
+    margin-bottom: 1vmax;
+    
+}
+
+#main-button button:hover{
+    background-color: darkred;
+} 
+
+#main-description{
+    width: 20vmax;
+}
+
+#main-description p{
+    margin: 0;
+}
+
+#main-description h1{
+    padding: 0%;
+    margin: 0%;
+    font-size: 3vmax;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#main-description h3{
+    color:cornflowerblue;
+}
+
+
+/*Boxes*/
+#section2{
+    display: flex;
+    max-width: 100%;
+    border: 0.1vmax solid white;
+    margin: 0 0 ;
+    
+}
+
+#section2 div{
+    display: flex;
+    flex-direction: column;
+    background-color:#f5f5f5c9 ;
+    max-width: 100%;
+    margin: 2vmax 0;
+}
+
+#section2 h2{
+    color: white;
+    background-color: #1b2835;
+    padding: 1vmax 1.5vmax;
+    color: white;
+    font-size: 1em;
+    margin: 0;
+}
+
+#section2 p{
+    margin: auto;
+    padding: 2vmax 1.5vmax;
+    text-align: left;
+    font-size: 1em;
+}
+
+#section2 button{
+    background-color: orangered;
+    border: 0;
+    color: white;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    
+    
+    line-height: 1.5vmax;
+    
+}
+/*
+#section2 table{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #f5f5f5c9;
+    width: 100%;
+    margin: 1vmax auto;
+    text-align: left;
+    
+}*/
+/*
+#section2 th{
+    background-color: #1b2835;
+    padding: 1vmax 1.5vmax;
+    color: white;
+    font-size: 1vmax;
+    
+}*/
+/*
+.table-text{
+    margin: auto;
+    padding: 2vmax 1.5vmax;
+    text-align: left;
+    font-size: 0.8vmax;
+    
+}*/
+/*
+td button{
+    background-color: orangered;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 0.6vmax;
+    text-transform: uppercase;
+    margin-left: 1.5vmax;
+    margin-bottom: 1.5vmax;
+    line-height: 1.5vmax;
+    
+}*/
+
+
+/*Meet Our Team*/
+
+#news-section{
+    display: flex;
+}
+
+#sub1{
+   margin: 1vmax 0 0 0;
+   
+   
+}
+
+#sub-images{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.team{
+    display: inline-flex;
+    align-items: flex-start;
+}
+
+.team img{
+    width: 9.5em;
+    height: 9.5em;
+    filter: grayscale(100%);
+    object-fit: cover;
+    border: 1px solid lightgray;
+    margin: 0% 0 2vmax 0;
+}
+
+.team p{
+    font-size: 1em;
+    width: 13em;
+    margin: 0 2%;
+    line-height: 1.8;
+}
+
+#sub1 h2{
+    text-transform: uppercase;
+}
+
+#sub1 button{
+    background-color: #1b2835;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 100%;
+    
+    
+}
+
+/*News*/
+
+#sub2{
+    margin: 1vmax 0;
+}
+
+#sub2 div{
+    display: flex;
+    align-items: flex-start;
+}
+
+#sub2 img{
+    width: 20vmax;
+    height: 31vmax;
+    object-fit:cover;
+    filter: grayscale(100%);
+}
+
+#sub2 h2{
+    text-transform: uppercase;
+}
+
+#sub2 p{
+    width: 25vmax;
+    height: auto;
+    margin: 0 2vmax 0 2vmax;
+    line-height: 1.8;
+}
+
+#news-div{
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    
+    
+    #main-description h1 {
+        font-size: 8vmax;
+        margin: auto 0;
+        
+    }
+
+
+
+    #news-div, #news-section, .team{
+        flex-direction: column;
+    }
+    #sub2 img{
+        margin-bottom: 1vmax;
+        width: 100%;
+    }
+    #sub2 p{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #sub1 button{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .team{
+        margin: 0 0 2vmax 0;
+        align-items: center;
+    }
+
+    #news-section h2, #news-section p{
+        text-align: center;
+    }
+
+    #sub1{
+        border: none;
+    }
+
+    #section2{
+        flex-direction: column;
+        
+    }
+
+    header{
+        max-width: 100%;
+        margin: 0;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    #rest, #main-description{
+        width: 100%;
+        margin: 3% auto;
+        text-align: center;
+    }
+
+   
+    
+/*
+    table{
+        table-layout: auto;
+    }*/
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #1C3144;
+    color: white;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    font-size: 1vmax;
+}
+
+footer h2{
+    margin: 1% 2%;
+}
